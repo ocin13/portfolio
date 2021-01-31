@@ -5,6 +5,196 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/style.css" rel="stylesheet" />
+    <!--start style file-->
+   <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+    background-color: gray;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Yantramanav', sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav ul li{
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: all ease-in-out 500;
+    padding-bottom: 16px;
+}
+.nav ul li a:hover{
+    color: rgb(252, 248, 50);
+    border-bottom:  3px solid rgba(252, 249, 50, 0.582);
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+.section h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5em;
+    color: rgb(252, 248, 50);
+    text-shadow: 2px 2px 5px black;
+}
+.section p{
+    font-size: 1.1em;
+    text-shadow: 2px 2px 5px black;
+}
+.name {
+    font-size: 1.6em;
+}
+.quotes {
+    margin: 20px 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px balck;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.project{
+    padding: 0 5px;
+}
+.project h4{
+    color: rgb(252, 248, 50);
+}
+.project p{
+font-size: 0.9em;
+}
+.project a {
+    text-decoration: none;
+    color: #fff;
+}
+.project a:hover{
+    color: rgb(252, 248, 50);
+    text-decoration: none;
+}
+.social-media{
+    list-style: none;
+    margin-top: 20px;
+}
+.social-media li{
+    display: inline;
+    margin: 0 20px;
+}
+.social-media li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: all ease-in-out 500ms;
+}
+.social-media li a i{
+    font-size: 1.8em;
+}
+.social-media li a:hover{
+    color: rgb(252, 248, 50);
+}
+.skills{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.skill {
+    padding: 20px 30px;
+}
+.skill span{
+    color: #fff;
+    font-size: 1.6em;
+    transition: all ease-in-out 500ms;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 600;
+}
+.skill span:hover{
+    color: rgb(252, 248, 50);
+    cursor: pointer;
+}
+/*************************************************
+******* background images implementation**********
+*************************************************/
+
+/*** background image 01 ***/
+#home{
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/15/12/43/angel-4057032__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*** background image 02 ***/
+#experience{
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/15/21/37/texture-990104__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*** background image 03 ***/
+#skills{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/08/06/03/british-columbia-2382640__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*** background image 04 ***/
+#contact{
+    background-image: url(https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+   </style>
+
+    <!--end style file-->
     
 </head>
 <body>
